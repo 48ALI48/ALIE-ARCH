@@ -118,12 +118,17 @@ button {
   width: 100% !important;
   background-repeat: no-repeat;
   background-position: left top;
-  /* background-size: cover; */
 }
 .flex-abaut {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  height: 800px;
+}
+.flex-abaut2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   height: 800px;
 }
 .about .about__main {
@@ -157,8 +162,8 @@ p {
 .loyhalash{
 
   width: 100%;
-
-  padding: 60px;
+height: 900px;
+  padding: 100px;
 }
 .text-loyha{
   text-align: center;
@@ -172,13 +177,16 @@ p {
 }
 .loyhalash-l{
 
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .loyhalash-r{
   margin-top: 50px;
 text-align: right;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ffeb38 !important;
+}
+.kerede{
+  line-height: 40px !important;
 }
 
 @media (max-width: 768px) {
@@ -201,7 +209,7 @@ text-align: right;
   }
   .about .about__title {
     line-height: 45px;
-    margin: 0 !important;
+   
   }
   .about {
     background-position: center;
@@ -230,5 +238,14 @@ text-align: right;
     font-size: 1.2rem;
  
   }
-  
+  .loyhalash{
+    height: 100vh;
+    padding: 60px;
+  }
+  .abaut2 {
+    background-position: center bottom;
+  }
+  .kerede{
+   margin: 50px 0  !important;
+  }
 }
