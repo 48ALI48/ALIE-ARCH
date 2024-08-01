@@ -29,6 +29,9 @@ body {
 .fa-bars {
   color: #fff !important;
 }
+a{
+  text-decoration: none !important;
+}
 button {
   background-color: #ffeb38 !important;
 }
@@ -189,6 +192,11 @@ text-align: right;
   line-height: 40px !important;
 }
 
+.color-end{
+  height: 150px;
+  width: 100%;
+  background-color: #02442b;
+}
 @media (max-width: 768px) {
   .hero-img {
     width: 70%;
