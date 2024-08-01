@@ -26,9 +26,7 @@ body {
   margin: 0 auto;
   width: 30%;
 }
-.fa-bars {
-  color: #fff !important;
-}
+
 a{
   text-decoration: none !important;
 }
@@ -41,7 +39,9 @@ button {
 }
 .tel-btn {
   border-radius: 20px;
-}
+  
+  }
+
 .tel-btn a {
   text-decoration: none;
   color: #02442b !important;
@@ -99,10 +99,17 @@ button {
   background-color: #ffeb3890 !important;
   color: #fff !important;
 }
-
+#sariq{
+  color: #ffeb38 !important;
+}
 .color li a,
 * {
   color: #fff !important;
+  transition: 0.5s;
+}
+
+.dropdown-toggle:hover{
+  color: #02442b !important;
 }
 .color .dropdown ul a {
   color: #02442b !important;
@@ -197,6 +204,8 @@ text-align: right;
   width: 100%;
   background-color: #02442b;
 }
+
+
 @media (max-width: 768px) {
   .hero-img {
     width: 70%;
