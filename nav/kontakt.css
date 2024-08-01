@@ -16,6 +16,9 @@ body{
   a{
     text-decoration: none !important;
   }
+  .fa-solid{
+    color: #fff !important;
+  }
   button {
     background-color: #ffeb38 !important;
   }

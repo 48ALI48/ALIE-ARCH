@@ -205,7 +205,9 @@ text-align: right;
   background-color: #02442b;
 }
 
-
+.fa-solid{
+  color: #fff !important;
+}
 @media (max-width: 768px) {
   .hero-img {
     width: 70%;
