@@ -67,7 +67,7 @@
 
                   <li class="nav-item dropdown ms-4">
                     <a
-                      class="dropdown-toggle nav-link dropdown-toggle"
+                      class="dropdown-toggle nav-link dropdown-toggle xizmatlar-btn"
                       href="#"
                       role="button"
                       data-bs-toggle="dropdown"
@@ -87,7 +87,7 @@
                         <a class="dropdown-item" href="#exsteryer">Exteryer</a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="#">Landshaft</a>
+                        <a class="dropdown-item" href="#landshaft">Landshaft</a>
                       </li>
                       <li>
                         <a class="dropdown-item" href="#"
@@ -112,7 +112,10 @@
       <h1 class="container h1">ARCH <span> </span> ALIU</h1>
       <h2 class="container h2">New century New design</h2>
       <a href="./ARIZA/ARIZA.HTML"
-        ><button class="btn stay d-block px-4 py-2 mt-3 mx-auto" id="loyhalash">
+        ><button
+          class="btn stay d-block px-4 py-2 mt-3 mx-auto ariza-btn"
+          id="loyhalash"
+        >
           Ariza qoldirish
         </button></a
       >
@@ -207,9 +210,39 @@
       class="btn stay d-block px-4 py-2 mt-3 loyhalash-btn container"
       id="Exteryer"
     >
-      <a href="#" class="batafsil">Batafsil</a>
+      <a href="#" class="batafsil" id="landshaft">Batafsil</a>
     </button>
     <hr class="hr" />
+    <div class="Landshaft container">
+      <div class="loyhalash-right">
+        <div class="loyhalash-title">LANDSHAFT</div>
+        <a href="#" class="loyhalash-a2"
+          ><img
+            src="./images/landshaft.jpg"
+            alt="Loyhalash"
+            class="loyhalash-left"
+        /></a>
+        <div class="loyhalash-paragrf">
+          Landshaft dizayni — bu ochiq maydonlar, bog'lar, parklar va boshqa
+          tabiiy muhitlarni loyihalash va tashkil etish jarayoni. U nafaqat
+          estetik jihatlarni, balki ekologik va funksional talablarni ham
+          hisobga oladi. Landshaft dizaynining asosiy jihatlari quyidagilardan
+          iborat:...
+        </div>
+      </div>
+      <a href="#" class="loyhalash-a"
+        ><img
+          src="./images/landshaft.jpg"
+          alt="Loyhalash"
+          class="loyhalash-left"
+      /></a>
+    </div>
+    <button
+      class="btn stay d-block px-4 py-2 mt-3 loyhalash-btn container"
+      id="Exteryer"
+    >
+      <a href="#" class="batafsil" id="exsteryer">Batafsil</a>
+    </button>
     <script type="module">
       import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
       const swiper = new Swiper(".swiper", {
