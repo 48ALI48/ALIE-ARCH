@@ -93,32 +93,9 @@ button {
   font-weight: 900;
   font-size: 20px;
 }
-.hero-img {
-  display: block;
-  margin: 0 auto;
-  width: 30%;
-}
-.h1 {
-  font-size: 7rem;
+.title {
+  margin-top: 150px;
   text-align: center;
-}
-.h2 {
+  font-size: 3rem;
   color: #ffeb38 !important;
-  text-align: center;
-  font-size: 2.7rem;
-}
-@media (max-width: 768px) {
-  .hero-img {
-    width: 70%;
-  }
-  .hero {
-    padding-top: 130px;
-  }
-  .h1 {
-    font-size: 4rem;
-  }
-
-  .h2 {
-    font-size: 1.4rem;
-  }
 }
