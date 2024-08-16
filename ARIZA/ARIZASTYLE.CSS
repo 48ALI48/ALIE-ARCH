@@ -106,6 +106,7 @@ body {
   background-color: #02442b;
   color: #fff;
   color: #ffeb38;
+  font-weight: 800;
 }
 .con {
   max-width: 1240px;
@@ -136,6 +137,7 @@ label,
 input,
 select {
   display: block;
+  font-weight: 800;
 }
 .flex-left,
 .flex-right {
@@ -178,6 +180,7 @@ button {
   border: 0;
   font-size: 20px;
   margin-top: 50px;
+  font-weight: 800;
 }
 button:hover {
   background-color: #ffeb3870;
