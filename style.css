@@ -164,6 +164,14 @@ button {
   margin: 0 auto;
   margin-top: 0 !important;
   width: 50% !important;
+  transition: 0.5s;
+  &:hover .batafsil {
+    color: #fff !important;
+  }
+}
+.loyhalash-btn:hover {
+  width: 90% !important;
+  transition: 1s;
 }
 .batafsil {
   color: #02442b !important;
