@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./ARIZASTYLE.CSS">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./ARIZASTYLE.CSS" />
     <title>Document</title>
-</head>
-<body>
-<form class="con">
-     <img src="./IMAGE/hero-img.png" alt="LOGO" width="100%">
-    <label for="fname">ISM FAMILYANGIZ</label>
-    <input type="text" id="fname" name="firstname" placeholder="ISM FAMILYANGIZ">
+  </head>
+  <body>
+    <form class="con">
+      <img src="./IMAGE/hero-img.png" alt="LOGO" width="100%" />
+      <label for="fname">ISM FAMILYANGIZ</label>
+      <input
+        type="text"
+        id="fname"
+        name="firstname"
+        placeholder="ISM FAMILYANGIZ"
+      />
 
-    <label for="lname">TELEFON RAQAMINGIZ</label>
-    <input type="number" id="lname" name="number" placeholder="TELEFON RAQAMINGIZ">
-    <label for="manzil">UY MANZILINGIZ</label>
-    <input type="text" id="manzil" name="firstname" placeholder="UY MANZILINGIZ">
-    <label for="country">KATEGORIYANI TANLANG</label>
-    <select id="country" name="country">
-      <option value="australia">Loyhalash</option>
-      <option value="canada">Interyer</option>
-      <option value="usa">Exteryer</option>
-      <option value="canada">Landshaft</option>
-      <option value="canada">Pod klyuch (Tez kunda)</option>
-    </select>
-  <div class="rs"><input type="submit" value="YUBORISH" class="color"> <input type="reset" value="✕" class="color color2">
+      <label for="lname">TELEFON RAQAMINGIZ</label>
+      <input
+        type="number"
+        id="lname"
+        name="number"
+        placeholder="TELEFON RAQAMINGIZ"
+      />
+      <label for="manzil">UY MANZILINGIZ</label>
+      <input
+        type="text"
+        id="manzil"
+        name="firstname"
+        placeholder="UY MANZILINGIZ"
+      />
+      <label for="country">KATEGORIYANI TANLANG</label>
+      <select id="country" name="country">
+        <option value="australia">Loyhalash</option>
+        <option value="canada">Interyer</option>
+        <option value="usa">Exteryer</option>
+        <option value="canada">Landshaft</option>
+        <option value="canada">Pod klyuch (Tez kunda)</option>
+      </select>
+      <label for="rasm"
+        ><div class="div-rasm">
+          <div class="label">Uyni holatini rasmini qoshish</div>
+          <div class="rasm-btn">RASM TANLASH</div>
+        </div></label
+      >
+      <input type="file" class="none" id="rasm" accept="image/*" />
+      <div class="rs">
+        <input type="submit" value="YUBORISH" class="color" />
+        <input type="reset" value="✕" class="color color2" />
+      </div>
+    </form>
+    <div class="con">
+      <a href="../index.html"><button>ORQAGA QAYTISH</button></a>
     </div>
-</form>
-<div class="con">
-<a href="../index.html"><button>ORQAGA QAYTISH</button></a></div>
-   <script src="./main.js">
-    </script>
+    <script src="./main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</body>
+  </body>
 </html>
