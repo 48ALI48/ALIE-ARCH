@@ -1,0 +1,94 @@
+body {
+  background-color: #02442b;
+  height: 1000px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.con {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 7rem;
+  margin-bottom: 20px;
+  transition: 1s !important;
+  &:hover {
+    transform: scale(1.1);
+    color: #ffeb38 !important;
+  }
+}
+.img {
+  width: 80%;
+  display: block !important;
+  margin: 50px auto !important;
+  border-radius: 20px !important;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.orqa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+svg {
+  transition: 1s;
+  stroke: #ffeb38 !important;
+  &:hover path {
+    stroke: #fff;
+  }
+}
+.title-paragrf {
+  color: #ffeb38;
+  font-size: 3rem;
+  text-align: justify;
+}
+.ariza-btn {
+  font-weight: 700;
+  transition: 0.5s;
+  &:hover {
+    color: #fff !important;
+  }
+}
+a {
+  text-decoration: none !important;
+}
+button {
+  background-color: #ffeb38 !important;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 4rem;
+  }
+  .title-paragrf {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .title {
+    font-size: 2rem;
+  }
+  .title-paragrf {
+    font-size: 1rem;
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+  .orqa {
+    margin-top: 20px;
+  }
+  .img {
+    margin: 20px auto !important;
+    width: 100%;
+  }
+}
