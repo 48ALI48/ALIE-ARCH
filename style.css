@@ -21,6 +21,7 @@ a {
 }
 button {
   background-color: #ffeb38 !important;
+  font-weight: 700 !important;
 }
 .navbar-toggler {
   background-color: transparent !important;
@@ -66,8 +67,7 @@ button {
   transition: 0.4s;
 }
 .ariza-btn,
-.xizmatlar-btn,
-.batafsil {
+.xizmatlar-btn {
   font-weight: 700;
   transition: 0.5s;
   &:hover {
