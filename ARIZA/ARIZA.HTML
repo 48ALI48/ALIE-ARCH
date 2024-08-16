@@ -7,10 +7,69 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="con">
-      <img src="./IMAGE/hero-img.png" alt="LOGO" width="100%" />
+    <div class="con pastga">
+      <img src="./IMAGE/hero-img.png" alt="LOGO" width="100%" class="img" />
+      <h1 class="container h1">ARCH ALIU</h1>
+      <h2 class="container h2">New century New design</h2>
     </div>
     <form class="con">
+      <div class="input-flex">
+        <div class="flex-left">
+          <label for="fname">ISM FAMILYANGIZ</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="ISM FAMILYANGIZ"
+            required
+          />
+        </div>
+        <div class="flex-right">
+          <label for="lname">TELEFON RAQAMINGIZ</label>
+          <input
+            type="number"
+            id="lname"
+            name="number"
+            placeholder="TELEFON RAQAMINGIZ"
+            required
+          />
+        </div>
+      </div>
+      <div class="input-flex">
+        <div class="flex-left">
+          <label for="manzil">UY MANZILINGIZ</label>
+          <input
+            type="text"
+            id="manzil"
+            name="firstname"
+            placeholder="UY MANZILINGIZ"
+            required
+          />
+        </div>
+        <div class="flex-right">
+          <label for="country">KATEGORIYANI TANLANG</label>
+          <select id="country" name="country">
+            <option value="australia">Loyhalash</option>
+            <option value="canada">Interyer</option>
+            <option value="usa">Exteryer</option>
+            <option value="canada">Landshaft</option>
+            <option value="canada">Pod klyuch (Tez kunda)</option>
+          </select>
+        </div>
+      </div>
+      <div class="input-flex">
+        <div class="flex-left">
+          <input type="submit" value="YUBORISH" class="color" />
+        </div>
+        <div class="flex-right">
+          <input type="reset" value="MA`LUMOTLARNI OCHIRISH" class="color" />
+        </div>
+      </div>
+    </form>
+    <div class="con">
+      <a href="../index.html"><button>ORQAGA QAYTISH</button></a>
+    </div>
+    <!-- <form class="con">
       <label for="fname">ISM FAMILYANGIZ</label>
       <input
         type="text"
@@ -53,11 +112,9 @@
         <input type="submit" value="YUBORISH" class="color" />
         <input type="reset" value="✕" class="color color2" />
       </div>
-    </form>
-    <div class="con">
+    </form> -->
+    <!-- <div class="con">
       <a href="../index.html"><button>ORQAGA QAYTISH</button></a>
-    </div>
-    <script src="./main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </div> -->
   </body>
 </html>
