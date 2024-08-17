@@ -52,6 +52,11 @@ select {
     background-color: #ffeb3870;
   }
 }
+.roter,
+input,
+#country {
+  border-radius: 3px;
+}
 input,
 select {
   width: 100%;
