@@ -234,6 +234,10 @@ svg {
   .about-title {
     text-align: center;
     margin-bottom: 0;
+    font-size: 30px;
+    &:hover {
+      transform: scale(1);
+    }
   }
   .about {
     padding-top: 20px;
