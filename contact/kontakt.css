@@ -165,10 +165,16 @@ button {
   background-position: center;
   background-repeat: no-repeat;
 }
-.about-one-img-img {
+/* .alicho {
   width: 150px;
   height: 150px;
-}
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-image: url("./image/admin.jpg");
+  background-position: top;
+  background-repeat: repeat;
+} */
 .display-none {
   display: none;
 }
